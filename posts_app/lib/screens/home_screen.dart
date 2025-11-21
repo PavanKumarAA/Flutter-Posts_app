@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.dispose();
   }
 
-  void _search() {
+  void _searchAPP() {
     final city = _controller.text.trim();
     if (city.isEmpty) return;
     context.read<WeatherProvider>().search(city);
