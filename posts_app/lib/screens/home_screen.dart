@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final provider = context.watch<WeatherProvider>();
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Weather Application')),
+      appBar: AppBar(title: const Text('Weather_Application')),
       body: Column(
         children: [
           Padding(
